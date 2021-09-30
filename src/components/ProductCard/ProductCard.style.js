@@ -4,6 +4,7 @@ const { width, height } = Dimensions.get('window');
 
 export default StyleSheet.create({
   container: {
+    flex:1,
     width: width / 2 - 20,
     height: height / 2.5,
     margin: 5,

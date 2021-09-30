@@ -13,7 +13,7 @@ const App = () => {
   return (
     <SafeAreaView style={styles.container}>
       <Header />
-      <SearchInput placeholder={'Ara..'} />
+      <SearchInput />
       <FlatList
         data={products_data}
         renderItem={renderProduct}

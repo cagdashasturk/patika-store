@@ -3,7 +3,7 @@ import { StyleSheet, TextInput } from 'react-native';
 import styles from './SearchInput.style';
 
 
-const SearchInput = ({ placeholder }) => {
+const SearchInput = () => {
 
   const [text, onChangeText] = useState('')
 
@@ -12,7 +12,7 @@ const SearchInput = ({ placeholder }) => {
       style={styles.input}
       value={text}
       onChangeText={onChangeText}
-      placeholder={placeholder}
+      placeholder={'Ara..'}
     />
 
   );
